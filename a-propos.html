@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À Propos — Cyprien Cavoli</title>
+    <link rel="stylesheet" href="assets/css/premium.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+        @layer base {
+            * { text-decoration: none !important; }
+            *::before, *::after { text-decoration: none !important; }
+            a { text-decoration: none !important; }
+            a:hover { text-decoration: none !important; }
+            button { text-decoration: none !important; }
+            body { font-family: 'Inter', sans-serif; background: rgb(3, 7, 18); color: rgb(250, 250, 250); }
+        }
+
+        @keyframes fade-up {
+            from { opacity: 0; transform: translateY(24px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate-fade-up { animation: fade-up 0.6s ease-out forwards; }
+        .delay-100 { animation-delay: 100ms; }
+        .delay-200 { animation-delay: 200ms; }
+        .delay-300 { animation-delay: 300ms; }
+    </style>
+</head>
+<body style="background: var(--surface-dark); color: var(--text-primary);">
+    <!-- HEADER FLUID BAR PREMIUM -->
+    <header>
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo">Cyprien Cavoli</a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link navLink" data-page="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="bts-sio.html" class="nav-link navLink" data-page="bts-sio.html">BTS SIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="a-propos.html" class="nav-link navLink" data-page="a-propos.html">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="competences.html" class="nav-link navLink" data-page="competences.html">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projets.html" class="nav-link navLink" data-page="projets.html">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="certifications.html" class="nav-link navLink" data-page="certifications.html">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link navLink" data-page="contact.html">Contact</a>
+                </li>
+            </ul>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M3 12h18M3 6h18M3 18h18" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+<section class="py-20 border-b border-zinc-800">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <h1 class="text-5xl font-bold mb-6">À propos</h1>
+            <p class="text-xl text-zinc-400 max-w-3xl">Étudiant passionné par technologie, infrastructure et cybersécurité. Décourez mon parcours, mes valeurs et mes ambitions.</p>
+        </div>
+    </section>
+    <main>
+        <section class="py-16" data-reveal>
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-3 gap-8 mb-16">
+                    <!-- MAIN CONTENT WITH SCROLLABLE BLOCK -->
+                    <div class="md:col-span-2 space-y-8">
+                        <h2 class="text-3xl font-bold">Qui suis-je ?</h2>
+                        
+                        <!-- SCROLLABLE TEXT BLOCK WITH DECORATIVE SIDEBAR -->
+                        <div class="flex gap-4 h-96">
+                            <!-- Decorative left bar -->
+                            <div class="w-1 bg-gradient-to-b from-cyan-400 via-indigo-400 to-transparent rounded-full"></div>
+                            
+                            <!-- Scrollable content -->
+                            <div class="flex-1 overflow-y-auto pr-4 text-zinc-400 leading-relaxed space-y-4">
+                                <p>Je suis Cyprien Cavoli, 20 ans, étudiant en BTS SIO option SISR au lycée Louise Michel à Grenoble. Passionné par l'informatique, les systèmes, les réseaux, l'automatisation et la cybersécurité, je construis une carrière orientée vers les solutions d'infrastructure robustes et sécurisées.</p>
+                                
+                                <p>Mon parcours a commencé dès le collège avec un stage dans le garage automobile Restor Auto 38 à Varces. Cette première expérience m'a permis de comprendre que les métiers purement physiques ne me correspondaient pas. C'est donc naturellement que je me suis orienté vers l'informatique, domaine qui m'attirait depuis longtemps, notamment grâce à ma passion pour les jeux vidéo et plus largement l'univers numérique.</p>
+                                
+                                <p>Lors de mes vœux d'orientation, une erreur ou un problème administratif m'a amené à intégrer une seconde professionnelle MELEC en place de mon premier choix. Malgré ce départ non prévu, je me suis fortement investi dans mes études et dans la vie du lycée. Cet engagement m'a permis d'accumuler des responsabilités : j'ai été élu au CVL, impliqué à la MDL, représentant au conseil de discipline, représentant au conseil d'administration et délégué de classe.</p>
+                                
+                                <p>Grâce à mon sérieux et mes efforts, j'ai pu intégrer le lycée Vaucanson à Grenoble en première générale, puis j'ai poursuivi ma formation en préparant un Baccalauréat Professionnel SN option C RISC. J'ai obtenu ce diplôme avec une mention Bien, ce qui m'a ouvert plusieurs portes vers des formations prestigieuses comme l'ENEPS, l'IUT, Louise Michel, Grésivaudan et autres établissements.</p>
+                                
+                                <p>J'ai choisi le BTS SIO pour approfondir réellement mes connaissances techniques, acquérir de véritables compétences professionnelles et construire une trajectoire d'études vers Bac+3 puis Bac+5. Pendant les différentes formations, j'ai eu l'opportunité de suivre un stage chez Hewlett Packard Entreprise via Capgemini Engineering en tant qu'administrateur réseau et systèmes, une expérience cruciale. J'ai également travaillé chez Groupe SEB à Écully comme technicien de proximité IT via SPIE ICS. Enfin, j'ai poursuivi mon développement en tant que technicien de sûreté chez SPIE ICS à Montbonnot-Saint-Martin, confirmant ma spécialisation dans les domaines de l'infrastructure et de la sécurité.</p>
+                            </div>
+                        </div>
+
+                        <!-- CUSTOM SCROLLBAR STYLING -->
+                        <style>
+                            .overflow-y-auto::-webkit-scrollbar { width: 4px; }
+                            .overflow-y-auto::-webkit-scrollbar-track { background: transparent; }
+                            .overflow-y-auto::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 2px; }
+                            .overflow-y-auto::-webkit-scrollbar-thumb:hover { background: #52525b; }
+                        </style>
+                    </div>
+
+                    <!-- RIGHT SIDEBAR -->
+                    <div class="space-y-4">
+                        <div class="p-4 rounded-lg bg-zinc-900 border border-zinc-800">
+                            <p class="text-sm text-cyan-400 font-semibold mb-1">Localisation</p>
+                            <p class="text-zinc-50">Grenoble (38000), France</p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-zinc-900 border border-zinc-800">
+                            <p class="text-sm text-indigo-400 font-semibold mb-1">Email</p>
+                            <p class="text-zinc-50"><a href="mailto:cyprien.cavoli@gmail.com" class="hover:text-cyan-400 transition-colors">cyprien.cavoli@gmail.com</a></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-zinc-900 border border-zinc-800">
+                            <p class="text-sm text-cyan-400 font-semibold mb-1">Téléphone</p>
+                            <p class="text-zinc-50">07 83 84 32 41</p>
+                        </div>
+                        
+                        <!-- CV BUTTONS -->
+                        <div class="space-y-3 pt-4 border-t border-zinc-800">
+                            <button onclick="openCVModal()" class="block w-full text-center px-4 py-2 bg-gradient-to-r from-cyan-400 to-indigo-400 text-zinc-950 font-medium rounded-lg hover:shadow-lg hover:shadow-cyan-400/20 transition-all text-sm">
+                                Voir mon CV
+                            </button>
+                            <a href="assets/cv/CV_Cyprien_Cavoli.pdf" download class="block w-full text-center px-4 py-2 bg-zinc-800 text-zinc-50 font-medium rounded-lg hover:bg-zinc-700 transition-colors text-sm">
+                                Télécharger mon CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION: MON PARCOURS -->
+                <div class="pt-8 border-t border-zinc-800">
+                    <h3 class="text-2xl font-bold mb-12">Mon parcours</h3>
+                    
+                    <!-- FORMATIONS & EXPERIENCES COMBINED -->
+                    <div class="space-y-6">
+                        <!-- 2024 - Present: BTS SIO -->
+                        <div class="flex gap-6">
+                            <div class="flex flex-col items-center">
+                                <div class="w-4 h-4 bg-cyan-400 rounded-full border-4 border-zinc-950"></div>
+                                <div class="w-0.5 h-24 bg-zinc-800 mt-4"></div>
+                            </div>
+                            <div class="pb-12">
+                                <p class="text-sm font-semibold text-cyan-400">Depuis septembre 2024</p>
+                                <h4 class="text-lg font-bold text-zinc-50 mt-1">BTS SIO option SISR</h4>
+                                <p class="text-sm text-zinc-400 mt-1">Lycée Louise Michel, Grenoble</p>
+                                <p class="text-xs text-zinc-500 mt-2">Études approfondies en systèmes, réseaux et cybersécurité</p>
+                            </div>
+                        </div>
+
+                        <!-- 2024 Mar-Apr: Stage SPIE ICS -->
+                        <div class="flex gap-6">
+                            <div class="flex flex-col items-center">
+                                <div class="w-4 h-4 bg-indigo-400 rounded-full border-4 border-zinc-950"></div>
+                                <div class="w-0.5 h-24 bg-zinc-800 mt-4"></div>
+                            </div>
+                            <div class="pb-12">
+                                <p class="text-sm font-semibold text-indigo-400">Mars — Avril 2026</p>
+                                <h4 class="text-lg font-bold text-zinc-50 mt-1">Technicien de sûreté</h4>
+                                <p class="text-sm text-zinc-400 mt-1">SPIE ICS, Montbonnot-Saint-Martin</p>
+                                <p class="text-xs text-zinc-500 mt-2">Continuité en tant que technicien de sûreté sur projets critiques</p>
+                            </div>
+                        </div>
+
+                        <!-- 2025 Jun-Jul: Stage SPIE ICS -->
+                        <div class="flex gap-6">
+                            <div class="flex flex-col items-center">
+                                <div class="w-4 h-4 bg-cyan-400 rounded-full border-4 border-zinc-950"></div>
+                                <div class="w-0.5 h-24 bg-zinc-800 mt-4"></div>
+                            </div>
+                            <div class="pb-12">
+                                <p class="text-sm font-semibold text-cyan-400">Juin — Juillet 2025</p>
+                                <h4 class="text-lg font-bold text-zinc-50 mt-1">Technicien de sûreté</h4>
+                                <p class="text-sm text-zinc-400 mt-1">SPIE ICS, Montbonnot-Saint-Martin</p>
+                                <p class="text-xs text-zinc-500 mt-2">Travaux de sûreté et infrastructure informatique</p>
+                            </div>
+                        </div>
+
+                        <!-- 2024 Jan-Apr: Groupe SEB Stage -->
+                        <div class="flex gap-6">
+                            <div class="flex flex-col items-center">
+                                <div class="w-4 h-4 bg-indigo-400 rounded-full border-4 border-zinc-950"></div>
+                                <div class="w-0.5 h-24 bg-zinc-800 mt-4"></div>
+                            </div>
+                            <div class="pb-12">
+                                <p class="text-sm font-semibold text-indigo-400">Janvier — Avril 2024</p>
+                                <h4 class="text-lg font-bold text-zinc-50 mt-1">Technicien de proximité IT</h4>
+                                <p class="text-sm text-zinc-400 mt-1">Groupe SEB, Écully — via SPIE ICS</p>
+                                <p class="text-xs text-zinc-500 mt-2">Support utilisateurs, maintenance hardware et assistance IT</p>
+                            </div>
+                        </div>
+
+                        <!-- 2022 Jul - 2024: Bac Pro SN -->
+                        <div class="flex gap-6">
+                            <div class="flex flex-col items-center">
+                                <div class="w-4 h-4 bg-cyan-400 rounded-full border-4 border-zinc-950"></div>
+                                <div class="w-0.5 h-24 bg-zinc-800 mt-4"></div>
+                            </div>
+                            <div class="pb-12">
+                                <p class="text-sm font-semibold text-cyan-400">Septembre 2022 — Juillet 2024</p>
+                                <h4 class="text-lg font-bold text-zinc-50 mt-1">Baccalauréat Professionnel SN option C RISC</h4>
+                                <p class="text-sm text-zinc-400 mt-1">Lycée Vaucanson, Grenoble</p>
+                                <p class="text-xs text-zinc-500 mt-2">Mention Bien • Réseaux Informatiques et Systèmes Communicants</p>
+                            </div>
+                        </div>
+
+                        <!-- 2022 Nov-Jan: HPE Stage -->
+                        <div class="flex gap-6">
+                            <div class="flex flex-col items-center">
+                                <div class="w-4 h-4 bg-indigo-400 rounded-full border-4 border-zinc-950"></div>
+                                <div class="w-0.5 h-24 bg-zinc-800 mt-4"></div>
+                            </div>
+                            <div class="pb-12">
+                                <p class="text-sm font-semibold text-indigo-400">Novembre 2022 — Janvier 2023</p>
+                                <h4 class="text-lg font-bold text-zinc-50 mt-1">Administrateur réseau et systèmes</h4>
+                                <p class="text-sm text-zinc-400 mt-1">Hewlett Packard Entreprise, Grenoble — via Capgemini Engineering</p>
+                                <p class="text-xs text-zinc-500 mt-2">Administration réseau, configuration systèmes, gestion d'infrastructure</p>
+                            </div>
+                        </div>
+
+                        <!-- 2021 Sep - 2022: Seconde MELEC -->
+                        <div class="flex gap-6">
+                            <div class="flex flex-col items-center">
+                                <div class="w-4 h-4 bg-cyan-400 rounded-full border-4 border-zinc-950"></div>
+                            </div>
+                            <div>
+                                <p class="text-sm font-semibold text-cyan-400">Septembre 2021 — Juillet 2022</p>
+                                <h4 class="text-lg font-bold text-zinc-50 mt-1">Seconde Professionnelle MELEC</h4>
+                                <p class="text-sm text-zinc-400 mt-1">Lycée Pablo Neruda, Saint-Martin-d'Hères</p>
+                                <p class="text-xs text-zinc-500 mt-2">Électrotechnique et métiers de l'électricité</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER PREMIUM -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section footer-brand">
+                    <div class="footer-logo">CC</div>
+                    <div>
+                        <h3 style="font-size: var(--text-sm); margin: 0;">Cyprien Cavoli</h3>
+                        <p style="color: var(--text-secondary); font-size: var(--text-xs); margin: 4px 0 0 0;">BTS SIO • SISR • Grenoble</p>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <div class="footer-links">
+                        <a href="index.html" class="footer-link">Accueil</a>
+                        <a href="bts-sio.html" class="footer-link">BTS SIO</a>
+                        <a href="a-propos.html" class="footer-link">À propos</a>
+                        <a href="competences.html" class="footer-link">Compétences</a>
+                        <a href="projets.html" class="footer-link">Projets</a>
+                        <a href="certifications.html" class="footer-link">Certifications</a>
+                        <a href="contact.html" class="footer-link">Contact</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Direct</h3>
+                    <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                        <a href="mailto:cyprien.cavoli@gmail.com" class="footer-icon-link" title="Email">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <path d="m22 6-10 7L2 6"></path>
+                            </svg>
+                        </a>
+                        <a href="tel:+33783844341" class="footer-icon-link" title="Téléphone">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/cyprien-cavoli/" target="_blank" class="footer-icon-link" title="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-divider">
+                <p class="footer-meta">© 2024–2026 Cyprien Cavoli • Lycée Louise Michel, Grenoble</p>
+                <p class="footer-meta">Disponible 24/7 — Étudiant</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL DOCUMENT PREMIUM -->
+    <div class="modal-overlay" id="documentModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeDocumentModal()" aria-label="Close document modal">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                </svg>
+            </button>
+            <div class="modal-document-header" id="documentHeader">
+                <h2 class="text-lg font-semibold text-zinc-100" id="documentTitle"></h2>
+            </div>
+            <iframe class="modal-pdf" id="documentIframe" title="Document viewer"></iframe>
+        </div>
+    </div>
+
+    <script>
+        // ===== NAVIGATION ACTIVE STATE =====
+        function setActiveNavLink() {
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            document.querySelectorAll('.navLink').forEach(link => {
+                const href = link.getAttribute('data-page');
+                if (href === currentPage || (currentPage === '' && href === 'index.html')) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        }
+
+        // ===== MOBILE MENU TOGGLE =====
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        navToggle?.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        navMenu?.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // ===== GENERIC DOCUMENT MODAL FUNCTIONS =====
+        const documentModal = document.getElementById('documentModal');
+        const documentIframe = document.getElementById('documentIframe');
+        const documentTitle = document.getElementById('documentTitle');
+
+        // Legacy function for backward compatibility
+        window.openCVModal = () => openDocumentModal('assets/cv/CV_Cyprien_Cavoli.pdf', 'Mon CV');
+        window.closeCVModal = closeDocumentModal;
+
+        function openDocumentModal(filepath, title = 'Document') {
+            if (!documentModal || !documentIframe) {
+                console.error('Document Modal not found');
+                return;
+            }
+            
+            // Sanitize filepath to handle spaces correctly
+            const cleanPath = filepath.replace(/\s+/g, ' ');
+            
+            documentTitle.textContent = title;
+            documentIframe.src = cleanPath + '#toolbar=0&navpanes=0&scrollbar=0';
+            documentModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            document.body.style.paddingRight = (window.innerWidth - document.documentElement.clientWidth) + 'px';
+        }
+
+        function closeDocumentModal() {
+            if (!documentModal) return;
+            documentModal.classList.remove('active');
+            documentIframe.src = '';
+            document.body.style.overflow = 'auto';
+            document.body.style.paddingRight = '0px';
+        }
+
+        // Close modal on overlay click
+        documentModal?.addEventListener('click', (e) => {
+            if (e.target === documentModal) {
+                closeDocumentModal();
+            }
+        });
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && documentModal?.classList.contains('active')) {
+                closeDocumentModal();
+            }
+        });
+
+        window.openDocumentModal = openDocumentModal;
+        window.closeDocumentModal = closeDocumentModal;
+
+        // ===== INITIALIZE =====
+        setActiveNavLink();
+
+        // ===== SCROLL REVEAL =====
+        const revealElements = document.querySelectorAll('[data-reveal]');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.animation = 'slideInUp 0.6s cubic-bezier(0.33, 0.66, 0.66, 1) forwards';
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        revealElements.forEach(el => {
+            el.style.opacity = '0';
+            observer.observe(el);
+        });
+
+        window.openCVModal = openCVModal;
+        window.closeCVModal = closeCVModal;
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+# Fichiers à ignorer pour Git
+
+# Système
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Éditeurs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# Node.js (si vous décidez d'ajouter des dépendances)
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Python (si vous utilisez un serveur Python)
+__pycache__/
+*.py[cod]
+.Python
+venv/
+env/
+
+# Répertoires locaux
+temp/
+tmp/
+cache/
+
+# OS
+.env
+.env.local
+
+# À garder
+!assets/
+!assets/images/
